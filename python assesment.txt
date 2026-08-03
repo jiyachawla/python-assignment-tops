@@ -1,0 +1,50 @@
+assesment of python
+Q1
+ Difference between a .py file and a .ipynb file
+   .py File	                            .ipynb File
+Python script file	                 Jupyter Notebook file
+Contains only Python code	         Contains code, text, images, and output
+Runs from terminal or IDE	         Runs cell by cell in Jupyter Notebook
+Best for application development	 Best for data analysis and experiments
+
+  
+2. Difference between a numerical feature and a categorical feature
+Numerical Feature: Contains numbers that can be measured or calculated.
+Examples: Age, Cholesterol, Blood Pressure 
+
+Categorical Feature: Contains categories or labels.
+Examples: (Male/Female), Chest Pain Type, Target (0 or 1)
+
+
+3. Why does the target variable's data type matter?
+
+The data type helps decide the type of machine learning problem.
+.If the target contains categories (0,1), it is a Classification problem.
+.If the target contains continuous numbers, it is a Regression problem.
+In the Heart Disease dataset, the target is 0 or 1, so it is a Binary Classification problem.
+
+
+4. Correlation between age and heart disease is 0.23. What does it mean?
+
+A correlation of 0.23 indicates a weak positive correlation.
+This means:
+.As age increases, the chance of heart disease tends to increase slightly.
+.The relationship is not strong.
+.Age alone cannot accurately predict heart disease.
+
+
+5. Rule-based system vs Data-driven approach
+
+.Rule-Based System
+.Uses fixed rules.
+
+Example:
+If Cholesterol > 240
+    High Risk
+Easy to understand.
+Cannot learn from new data.
+
+Data-Driven System
+Learns patterns from historical data using machine learning.
+Can consider many features together (Age, BP, Cholesterol, etc.).
+Usually gives more accurate predictions.
